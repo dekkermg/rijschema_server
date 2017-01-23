@@ -2,6 +2,7 @@ var http = require('http');
 var formidable = require('formidable');
 var util = require('util');
 var uuid = require('node-uuid');
+var express = require('express');
 
 var server = http.createServer(function(req, res) {
     res.setHeader('Access-Control-Allow-Origin', '*');
